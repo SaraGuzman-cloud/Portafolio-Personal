@@ -1,0 +1,18 @@
+body {
+    background-color: #060320;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #5e95d4;
+    text-align: center;
+}
+h2 {
+    color: #366dac;
+    
+}
+ul {
+    color: rgb(84, 147, 153);
+}
+p{
+    color: rgb(103, 74, 233);
+}

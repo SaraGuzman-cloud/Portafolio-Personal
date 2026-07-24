@@ -1,0 +1,65 @@
+/* 1. Estilos para el fondo de TODA la página */
+body {
+    background-color: #09010e;
+    /* Un color de fondo gris claro moderno */
+    font-family: 'Times New Roman', Times, serif;
+    /* Cambiamos el tipo de letra aburrido */
+}
+
+/* 2. Estilos para la tarjeta central (usando su clase) */
+.tarjeta-perfil {
+    background-color: #060320;
+    /* Tarjeta blanca para que resalte */
+    width: 60%;
+    /* No queremos que ocupe todo el ancho de la pantalla */
+    margin: 40px auto;
+    /* Esto centra la tarjeta mágicamente en la pantalla */
+    padding: 30px;
+    /* Espacio INTERNO para que el texto no pegue al borde */
+    border-radius: 15px;
+    /* ¡Bordes redondeados muy elegantes! */
+    box-shadow: 0px 4px 10px rgb(255, 254, 254);
+    /* Una sombrita suave detrás */
+}
+
+/* 3. Estilizamos los títulos dentro de la tarjeta */
+h1 {
+    color: #5e95d4;
+    /* Un azul 'SENA' 💙 */
+    text-align: center;
+    /* Título centrado */
+}
+
+/* 4. Haciendo la imagen bonita redonda */
+.foto-perfil {
+    width: 200px;
+    /* Tamaño de la imagen */
+    border-radius: 50%;
+    /* Si le damos 50% de radio a algo cuadrado, ¡se hace
+redondo! */
+    display: block;
+    /* Trucos para centrar la imagen */
+    margin: 0 auto;
+    border: 5px solid #633da1;
+    /* Un marco azul alrededor de la foto */
+}
+
+/* 5. Afectando solo al subtítulo que le pusimos la clase especial */
+.subtitulo-especial {
+    color: rgb(51, 97, 51);
+    text-decoration: underline;
+    /* Lo subrayamos */
+}
+p{
+    color: rgb(103, 74, 233);
+}
+h2{
+    color: #366dac;
+}
+ul{
+    color: rgb(84, 147, 153);
+}
+button{
+    color: #001124;
+    background-color: #5e95d4;
+}
